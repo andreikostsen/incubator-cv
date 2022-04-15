@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/incubator-cv/static/css/main.0315e9ab.css",
+    "main.js": "/incubator-cv/static/js/main.568ff130.js",
+    "index.html": "/incubator-cv/index.html",
+    "main.0315e9ab.css.map": "/incubator-cv/static/css/main.0315e9ab.css.map",
+    "main.568ff130.js.map": "/incubator-cv/static/js/main.568ff130.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0315e9ab.css",
+    "static/js/main.568ff130.js"
+  ]
+}
