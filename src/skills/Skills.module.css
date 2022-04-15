@@ -1,0 +1,29 @@
+.skillsBlock {
+
+    min-height: 100vh;
+    background-color: cadetblue;
+
+}
+
+.skillsContainer {
+
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    min-height: 100vh;
+
+}
+
+.skillsGrid {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 100%;
+
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}

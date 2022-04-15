@@ -1,0 +1,25 @@
+.contactBlock {
+    background-color: #ce90ce;
+    height: 400px;
+}
+
+.contactContainer {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+form {
+    width: 80%;
+}
+
+.inputStyle {
+    width: 100%;
+}
+
+.sendButton {
+    text-align: center;
+}

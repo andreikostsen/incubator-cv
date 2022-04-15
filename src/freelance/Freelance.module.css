@@ -1,0 +1,20 @@
+.freelanceBlock {
+    height: 200px;
+    background-color: #ecd08b;
+}
+
+.freelanceContainer {
+    border: 1px solid #bb7415;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.button {
+
+    width: 80px;
+    height: 30px;
+    background-color: #bb7415;
+
+}

@@ -1,0 +1,20 @@
+.footerBlock {
+    background-color: #b8da7b;
+    min-height: 150px;
+}
+
+.footerContainer {
+    height: 250px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerMenu {
+width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

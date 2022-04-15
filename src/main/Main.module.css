@@ -1,0 +1,11 @@
+.main {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+
+.photo {
+    width: 300px;
+    height: 500px;
+    background-color: #807a72;
+}
