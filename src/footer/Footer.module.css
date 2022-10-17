@@ -1,20 +1,43 @@
 .footerBlock {
-    background-color: #b8da7b;
+    background-color: #fff;
     min-height: 150px;
 }
 
 .footerContainer {
     height: 250px;
-    border: 1px solid;
+   /* border: 1px solid;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .footerMenu {
-width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
+}
+
+.copyright {
+    width: 100%;
+    color: #8a8fa3;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    position: relative;
+
+    text-align: center;
+}
+
+.copyright::before {
+
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #e1e6f1;
 }

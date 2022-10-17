@@ -1,11 +1,82 @@
 .main {
     height: 100vh;
-    background-color: aquamarine;
+    background-size: cover;
+    background-position: center;
 }
 
 
 .photo {
     width: 300px;
     height: 500px;
-    background-color: #807a72;
+    /*background-color: #807a72;*/
+    background-size: cover;
+    background-position: center;
+}
+
+
+.banner_item_overlay {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 17, 35, 0.7);
+}
+
+span.hi {
+    color: #fff;
+    font: 500 50px/66px "Poppins", sans-serif;
+    margin-bottom: 22px;
+    text-align: center;
+
+
+}
+
+.banner_title {
+    position: absolute;
+    z-index: 1;
+
+
+
+}
+
+.banner_title h1 {
+
+    color: #fbd214;
+    font: 900 50px/66px "Poppins", sans-serif;
+
+
+}
+
+.button {
+    font: 400 15px/30px "Poppins", sans-serif;
+    background-image: -webkit-linear-gradient( 40deg, rgb(254,193,16) 0%, rgb(251,210,20) 100%);
+    color: #fff;
+    border-radius: 0;
+    padding: 15px 35px;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 24px;
+    transition: all 0.5s;
+
+    position: absolute;
+    z-index: 2;
+
+    margin-bottom: 0;
+    margin-top: 30px;
+
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+
+}
+
+.button:hover {
+    background-image: -webkit-linear-gradient(-140deg, rgb(254, 193, 16) 0%, rgb(251, 210, 20) 100%);
 }

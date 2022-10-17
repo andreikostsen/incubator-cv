@@ -1,0 +1,86 @@
+@import "../../common/styles/sass/variables";
+
+.work {
+  width: 300px;
+  min-height: 200px;
+  border: 2px solid $borderColor;
+
+  .imgBlock {
+    width: 300px;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      opacity: 0.4;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    a.button {
+      width: 80px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $textColorThird;
+      font: $buttonFont;
+      border: 2px solid $textColorThird;
+      background: $bgColorSecond;
+      transition: all 0.5s;
+      text-decoration: none;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    a.button:hover {
+      background: $textColorThird;
+      color: $bgColor;
+    }
+  }
+
+  .work_item_title {
+    margin: 10px;
+    font-size: 18px;
+    color: $textColor;
+    text-align: center;
+  }
+
+  .description {
+    margin: 10px;
+    font-size: 14px;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+    color: $textColorSecond;
+
+  }
+}
+
+
+.work:hover {
+
+  border: 2px solid $borderColorHover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.5s;
+
+}
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 .header {
-    height: 100px;
-    background-color: burlywood;
+    height: 80px;
+    background-color: #fff;
 
 
 }
@@ -9,7 +9,7 @@
 
     width: 80%;
     height: 100%;
-    border: 1px solid;
+    /*border: 1px solid;*/
     margin: 0  auto;
     display: flex;
    justify-content: flex-end;

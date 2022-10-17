@@ -1,0 +1,53 @@
+@import "../common/styles/sass/variables.scss";
+
+.skillsBlock {
+
+    background-color:$bgColor;
+    padding-top: 93px;
+
+}
+
+.skillsContainer {
+
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+
+}
+
+p {
+    font: 400 16px/28px "Poppins", sans-serif;
+    color: #808899;
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skillsGrid {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0px solid;
+    width: 100%;
+    margin-top: 63px;
+    margin-bottom: 105px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 504px) {
+
+.skillsGrid {
+    justify-content: center;
+
+}
+
+
+}
+
+

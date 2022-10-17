@@ -16,7 +16,7 @@ export const Footer = () => {
 
                 </div>
 
-                <div>© 2022 Andrei Kostsen, All Rights Reserved.</div>
+                <div className={style.copyright}>© 2022 Andrei Kostsen, All Rights Reserved.</div>
 
             </div>
 

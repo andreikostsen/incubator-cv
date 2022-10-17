@@ -1,0 +1,52 @@
+
+.skillWrap {
+    width: 400px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.skillInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+
+}
+
+.skillName {
+
+    display: inline-block;
+    font: 500 14px "Poppins", sans-serif;
+    color: #022144;
+    text-transform: uppercase;
+}
+
+.skillValue {
+    display: inline-block;
+    float: right;
+    font: 600 15px "Poppins", sans-serif;
+    color: #fec110;
+
+}
+
+.skill {
+    margin-top: 5px;
+
+}
+.skillHolder {
+    background: #e7ebf1;
+    display: block;
+    height: 8px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.skillBar {
+    height: 8px;
+    float: left;
+    border-radius: 0px;
+    background-image: -webkit-linear-gradient( 0deg, rgb(254,193,16) 0%, rgb(251,210,20) 100%);
+    background: #fec110;
+
+}
+
