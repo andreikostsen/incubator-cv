@@ -8,6 +8,8 @@ import {Works} from "./works/Works";
 import {Freelance} from "./freelance/Freelance";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {Story} from "./story/Story";
+
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
           <Skills />
           <Works />
           <Freelance />
-          <Contacts />
+          {/*<Contacts />*/}
+          <Story />
           <Footer />
 
       </div>

@@ -1,0 +1,41 @@
+.storyBlock {
+    background-color: #f8f9fb;
+    min-height: 150px;
+}
+
+.storyContainer {
+    height: 250px;
+    /* border: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.storyWrap {
+
+    display: flex;
+    flex-direction: row;
+    background: #707b90;
+
+
+}
+
+.date {
+    text-align: left;
+    width: 30%;
+}
+.position {
+    width: 70%;
+
+}
+
+
+.storyWrap p {
+
+    text-align: left;
+
+}
+
+

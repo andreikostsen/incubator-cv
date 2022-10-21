@@ -11,6 +11,12 @@
     justify-content: space-around;
 }
 
+.footerContainer h2 {
+
+    color: #fec110
+
+}
+
 .footerMenu {
     width: 300px;
     display: flex;
@@ -40,4 +46,24 @@
     left: 50%;
     transform: translateX(-50%);
     background: #e1e6f1;
+}
+
+
+a {
+
+}
+
+.icon {
+    font-size:48px;
+
+    /*width: 48px;*/
+    /*height: 48px;*/
+
+    line-height: 48px;
+    color: #707b90;
+    /*background: #dce2ed;*/
+    display: block;
+    /*border-radius: 50%;*/
+    transition: all 0.4s linear;
+    text-align: center;
 }
