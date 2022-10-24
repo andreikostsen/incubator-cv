@@ -12,10 +12,23 @@ export const Story = () => {
 
                 <Title text={"My Awesome Story"}/>
                 <div className={style.storyWrap}>
-                    <div>December 2010 to Present</div>
-                    <div >
+                    <div className={style.date}>December 2010<br /> to Present</div>
+                    <div className={style.position}>
                         <h4>ewef</h4>
                         <h5>wefwefwef</h5>
+
+                        <p>He lost his bottle squiffy bog bleeding hunky-dory wind up morish tomfoolery spend a penny hanky panky, lemon squeezy vagabond up the kyver fantastic cheeky.!</p>
+
+                    </div>
+
+                </div>
+
+                <div className={style.storyWrap}>
+                    <div className={style.date}>December 2010<br /> to Present</div>
+                    <div className={style.position}>
+                        <h4>ewef</h4>
+                        <h5>wefwefwef</h5>
+
                         <p>He lost his bottle squiffy bog bleeding hunky-dory wind up morish tomfoolery spend a penny hanky panky, lemon squeezy vagabond up the kyver fantastic cheeky.!</p>
 
                     </div>
