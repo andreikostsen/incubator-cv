@@ -8,7 +8,7 @@ import {Works} from "./works/Works";
 import {Freelance} from "./freelance/Freelance";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
-import {Story} from "./story/Story";
+import {Stories} from "./story/Stories";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Works />
           <Freelance />
           {/*<Contacts />*/}
-          <Story />
+          <Stories />
           <Footer />
 
       </div>

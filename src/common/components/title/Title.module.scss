@@ -40,6 +40,36 @@
 
 .title2 {
 
+    position: relative;
+    padding: 0 0 12px;
+    margin-bottom: 50px;
+
+
+    &::before {
+        content: "";
+        width: 100px;
+        height: 2px;
+        position: absolute;
+        bottom: 5px;
+        left: 0%;
+        background: #fec110;
+
+    }
+    &::after {
+        content: "";
+        width: 60px;
+        height: 2px;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        background: #fec110;
+    }
+
+    h2 {
+        font: $titleFont;
+        color: $textColor;
+        z-index: 1;
+    }
 
 }
 
