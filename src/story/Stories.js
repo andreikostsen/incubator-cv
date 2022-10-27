@@ -82,7 +82,7 @@ export const Stories = () => {
     return (
         <div className={style.storyBlock}>
             <div className={`${style.storyContainer} ${styleContainer.container}`}>
-                <Title text={"My Awesome Stories"} style={"left"}/>
+                <Title text={"My Awesome Story"} style={"left"}/>
                 {storyState.map(s=>
                     <Story period={s.period}  company={s.company}  position={s.position} description={s.description} />)
                 }
