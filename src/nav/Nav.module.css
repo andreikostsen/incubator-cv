@@ -2,6 +2,8 @@
 
     display: flex;
     justify-content: flex-end;
+
+
 }
 
 ul.nav {
@@ -18,7 +20,7 @@ ul.nav li {
 
 }
 
-ul.nav li a {
+.menuLink {
 
     font: 500 14px/50px "Poppins", sans-serif;
     color: #2c2c2c;
@@ -27,7 +29,8 @@ ul.nav li a {
     padding-bottom: 10px;
 
 }
-ul.nav li a:hover {
+.menuLink:hover,
+.menuLinkActive {
     color: #fbd214;
 
 }

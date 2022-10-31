@@ -1,13 +1,16 @@
 .main {
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    position: relative;
+    top:80px;
+
 }
 
 .banner_item_overlay {
     content: "";
     position: absolute;
-    top: 80px;
+    top: 0;
     left: 0;
     width: 50%;
     height: 100%;

@@ -9,10 +9,9 @@ import {Freelance} from "./freelance/Freelance";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 import {Stories} from "./story/Stories";
+import {Sidebar} from "./common/components/sidebar/Sidebar";
 
 // helpers
-const capitalize = (text) =>
-    text.charAt(0).toUpperCase() + text.substr(1);
 
 const clamp = (value) => Math.max(0, value);
 
@@ -26,7 +25,7 @@ const useScrollspy = (ids, offset = 0) => {
 
     useLayoutEffect(() => {
         const listener = () => {
-            const scroll = window.pageYOffset;
+            const scroll = window.scrollY;
 
             const position = ids
                 .map((id) => {
@@ -62,21 +61,24 @@ const useScrollspy = (ids, offset = 0) => {
 
 function App() {
 
-    const ids = ["Home", "Skills", "Portfolio", "Contacts"]
+    const ids = ["Home", "Skills", "Portfolio", "Story","Contacts"]
     const activeId = useScrollspy(ids, 80); // 54 is navigation height
 
   return (
 
-      <div className={style.App}>
+      <div className={style.App} id="App">
+          <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} menuItems={ids}/>
 
-          <Header />
-          <Main id={ids[0]}/>
-          <Skills />
-          <Works />
-          <Freelance />
-          {/*<Contacts />*/}
-          <Stories />
-          <Footer />
+          <div id="page-wrap">
+              <Header menuItems={ids} activeId={activeId}/>
+              <Main id={ids[0]}/>
+              <Skills id={ids[1]}/>
+              <Works id={ids[2]}/>
+              <Freelance/>
+              {/*<Contacts />*/}
+              <Stories id={ids[3]}/>
+              <Footer id={ids[4]}/>
+          </div>
 
       </div>
   );

@@ -32,13 +32,13 @@ const worksState = [
 
 ]
 
-export const Works = () => {
+export const Works = (props) => {
 
 
 
 
     return (
-<div className={style.worksBlock}>
+<div className={style.worksBlock} id={props.id}>
 
     <div className={`${styleContainer.container} ${style.worksContainer}`}>
        <Title text={"My Works"}/>

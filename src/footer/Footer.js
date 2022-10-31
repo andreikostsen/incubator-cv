@@ -7,10 +7,10 @@ import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 
-export const Footer = () => {
+export const Footer = (props) => {
 
     return (
-        <div className={style.footerBlock}>
+        <div className={style.footerBlock} id={props.id}>
             <div className={`${style.footerContainer} ${styleContainer.container}`}>
                 <h2>ANDREI KOSTSEN</h2>
                 <div className={style.footerMenu}>

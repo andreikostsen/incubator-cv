@@ -76,11 +76,11 @@ const storyState = [
 
 
 ]
-export const Stories = () => {
+export const Stories = (props) => {
 
 
     return (
-        <div className={style.storyBlock}>
+        <div className={style.storyBlock} id={props.id}>
             <div className={`${style.storyContainer} ${styleContainer.container}`}>
                 <Title text={"My Awesome Story"} style={"left"}/>
                 {storyState.map(s=>

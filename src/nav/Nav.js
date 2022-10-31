@@ -1,19 +1,19 @@
 import React from 'react'
-
+import clsx from "clsx";
 import style from './Nav.module.css';
 
 
-const menuItems = ["Home", "Skills", "Portfolio", "Contacts"]
-
-
-export const Nav = () => {
+export const Nav = (props) => {
 
     return (
         <div className={style.navbar}>
 
             <ul className={style.nav}>
 
-                {menuItems.map(m=><li><a href="">{m}</a></li>)}
+                {props.menuItems.map(m=><li><a href={`#${m}`} className={clsx(
+                    style.menuLink,
+                    m === props.activeId && style.menuLinkActive
+                )}>{m}</a></li>)}
 
             </ul>
 

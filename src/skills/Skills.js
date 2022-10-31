@@ -16,11 +16,11 @@ const skillsState = [
 ]
 
 
-export const Skills = () => {
+export const Skills = (props) => {
 
     return (
 
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id={props.id}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title text={"Skills"}/>
                 <p>My soft skills: teamwork, time management, leadership, problem-solving,
