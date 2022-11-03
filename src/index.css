@@ -49,6 +49,7 @@ code {
 /* The rest copied directly from react-burger-menu docs */
 
 /* Position and sizing of burger button */
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -56,6 +57,7 @@ code {
   left: 36px;
   top: 27px;
 }
+
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
@@ -93,4 +95,16 @@ code {
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 17, 35, 0.7);
+}
+
+
+
+@media screen and (min-width: 504px) {
+
+
+  .bm-burger-button {
+    display: none;
+  }
+
+
 }

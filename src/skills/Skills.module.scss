@@ -3,7 +3,8 @@
 .skillsBlock {
 
     background-color:$bgColor;
-    padding-top: 93px;
+    padding-top: 173px;
+    //position: relative;
 
 }
 
@@ -42,11 +43,15 @@
 
 @media screen and (max-width: 504px) {
 
-.skillsGrid {
-    justify-content: center;
+    .skillsGrid {
+        justify-content: center;
 
-}
+    }
+    .skillsContainer p {
 
+        width: 80%;
+
+    }
 
 }
 

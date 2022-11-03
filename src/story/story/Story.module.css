@@ -12,10 +12,25 @@
 
 .storyWrap .date {
     text-align: left;
-    width: 30%;
+    width: 16%;
+    font-style: normal;
+    margin-top: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    color: #022144
 }
+
+.storyWrap .date span {
+    padding-right: 20%;
+
+
+}
+
 .storyWrap .position {
-    width: 70%;
+    width: 84%;
     background: #fff;
     padding: 35px 50px;
     box-shadow: 0px 15px 30px 0px rgb(0 11 40 / 6%);
@@ -30,9 +45,9 @@
     background-color: #eeeeee;
 
     height: calc(100% + 49px);
-    /*left: calc(-50px + 6px);*/
 
-    left: 180px;
+    left: 13%;
+
 }
 
 .storyWrap:last-child .position::before {
@@ -47,7 +62,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    left: 169px;
+    left: calc(13% - 12px);
     background-color: #f1b200;
     background-image: -moz-linear-gradient(40deg, #f0ba1d 0%, #fbd214 100%);
     background-image: -webkit-linear-gradient(40deg, #f0ba1d 0%, #fbd214 100%);
@@ -84,3 +99,47 @@
 
 }
 
+
+
+
+@media screen and (max-width: 504px) {
+
+    .storyWrap .position::before {
+        content: '';
+        display: none;
+
+    }
+
+    .storyWrap .position::after {
+        content: '';
+        display: none;
+    }
+
+
+
+    .storyWrap {
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        /*border: 1px solid red;*/
+        margin-bottom: 50px;
+
+    }
+
+    .storyWrap .date {
+        text-align: left;
+        width: 100%;
+    }
+
+
+    .storyWrap .position {
+        width: 84%;
+
+        padding: 35px 20px;
+
+    }
+
+
+}

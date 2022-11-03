@@ -7,7 +7,7 @@ export const Story = (props) => {
 
 return (
     <div className={style.storyWrap}>
-        <div className={style.date}>{parse(props.period)}</div>
+        <div className={style.date}><span>{parse(props.period)}</span></div>
         <div className={style.position}>
             <h4>{props.position}</h4>
             <h5>{props.company}</h5>

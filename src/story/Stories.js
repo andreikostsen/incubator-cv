@@ -6,7 +6,7 @@ import {Story} from "./story/Story";
 const storyState = [
 
     {
-        period: "February 2009 <br/> to Present",
+        period: "February 2009 to Present",
         company: "GlobalOneBel JSC",
         position: "Department director, Financial Telecommunications",
         description: "<ul><li>communication with partners (Orange Business Services, British Telecom, CISCO, Pexip, AVAYA etc)</li>" +
@@ -23,7 +23,7 @@ const storyState = [
     },
 
     {
-        period: "October 2003 – <br/>January 2009",
+        period: "October 2003 – January 2009",
         company: "GlobalOneBel JSC",
         position: "Senior account manager/account manager",
         description: "<ul><li>communication with potential and existing customers</li>" +

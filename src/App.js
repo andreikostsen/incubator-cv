@@ -1,4 +1,5 @@
 import React, {useLayoutEffect, useState} from "react";
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 import style from './App.module.css';
 import {Header} from "./header/Header";
@@ -70,14 +71,18 @@ function App() {
           <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"} menuItems={ids}/>
 
           <div id="page-wrap">
+
+              <Router>
               <Header menuItems={ids} activeId={activeId}/>
-              <Main id={ids[0]}/>
+              <Main id={ids}/>
               <Skills id={ids[1]}/>
               <Works id={ids[2]}/>
               <Freelance/>
               {/*<Contacts />*/}
               <Stories id={ids[3]}/>
               <Footer id={ids[4]}/>
+              </Router>
+
           </div>
 
       </div>

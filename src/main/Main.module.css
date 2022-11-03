@@ -81,3 +81,17 @@ span.sub_title {
 .button:hover {
     background-image: -webkit-linear-gradient(-140deg, rgb(254, 193, 16) 0%, rgb(251, 210, 20) 100%);
 }
+
+
+
+
+@media screen and (max-width: 504px) {
+
+    .banner_item_overlay {
+        width: 100%;
+    }
+    .banner_title {
+        width: 80%;
+    }
+
+}

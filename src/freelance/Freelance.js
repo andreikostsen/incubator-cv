@@ -17,7 +17,7 @@ export const Freelance = () => {
             <div className={style.overlay}> </div>
                 <div className={`${styleContainer.container} ${style.freelanceContainer}`}>
                     <h2><span>I'm Available</span><br />For Freelancing</h2>
-                    <button className={style.button}>Hire me</button>
+                    <a href="/#Contacts" ><button className={style.button}>Hire me</button></a>
                 </div>
 
 

@@ -1,9 +1,6 @@
 .navbar {
-
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 ul.nav {
@@ -49,3 +46,12 @@ ul.nav li a:hover::before {
 
 }
 
+@media screen and (max-width: 504px) {
+
+    .navbar {
+        display: none;
+
+    }
+
+
+}

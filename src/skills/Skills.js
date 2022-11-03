@@ -9,6 +9,7 @@ import {Title} from "../common/components/title/Title";
 const skillsState = [
     {title: "React", value: "65%"},
     {title: "JS", value: "78%"},
+    {title: "TypeScript", value: "78%"},
     {title: "HTML5, CSS3", value: "96%"},
     {title: "English (B2)", value: "70%"},
     {title: "Photoshop", value: "70%"},
