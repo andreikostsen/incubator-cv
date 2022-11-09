@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/incubator-cv/static/css/main.3f06ed23.css",
-    "main.js": "/incubator-cv/static/js/main.11bd8bfc.js",
-    "static/media/kostsen3.jpg": "/incubator-cv/static/media/kostsen3.cd151353a7132e437fde.jpg",
+    "main.css": "/incubator-cv/static/css/main.f81a4763.css",
+    "main.js": "/incubator-cv/static/js/main.fce07a41.js",
+    "static/media/kostsen.jpg": "/incubator-cv/static/media/kostsen.cd151353a7132e437fde.jpg",
+    "static/media/rrc.png": "/incubator-cv/static/media/rrc.ac68f89735acf7c46e77.png",
     "static/media/social_network.jpeg": "/incubator-cv/static/media/social_network.20bb86949e2ba2426f0f.jpeg",
+    "static/media/cinemarium.png": "/incubator-cv/static/media/cinemarium.1364bf4c5747cf382d0d.png",
     "static/media/shape.png": "/incubator-cv/static/media/shape.c4f79efecd889fe62ee5.png",
+    "static/media/adevis.png": "/incubator-cv/static/media/adevis.6650dc415a21a164d3a0.png",
     "static/media/todolist.jpg": "/incubator-cv/static/media/todolist.2e374fa9cf492020b049.jpg",
     "static/media/react_logo.svg": "/incubator-cv/static/media/react_logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/incubator-cv/index.html",
-    "main.3f06ed23.css.map": "/incubator-cv/static/css/main.3f06ed23.css.map",
-    "main.11bd8bfc.js.map": "/incubator-cv/static/js/main.11bd8bfc.js.map"
+    "main.f81a4763.css.map": "/incubator-cv/static/css/main.f81a4763.css.map",
+    "main.fce07a41.js.map": "/incubator-cv/static/js/main.fce07a41.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f06ed23.css",
-    "static/js/main.11bd8bfc.js"
+    "static/css/main.f81a4763.css",
+    "static/js/main.fce07a41.js"
   ]
 }
