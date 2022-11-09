@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import style from './Main.module.css';
 import styleContainer from '../common/styles/Container.module.css'
-import myPhoto from '../assets/kostsen3.jpg'
+import myPhoto from '../assets/kostsen.jpg'
 
 
 

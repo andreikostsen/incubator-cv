@@ -6,6 +6,38 @@ import {Story} from "./story/Story";
 const storyState = [
 
     {
+        period: "December 2021 to Present",
+        company: "IT-Incubator",
+        position: "Front-End Developer Course",
+        description:
+            "<ul><li>TypeScript</li>" +
+            "<li>JavaScript</li>" +
+            "<li>React</li>" +
+            "<li>React Redux</li>" +
+            "<li>REST API</li>" +
+            "<li>Story book</li>" +
+            "<li>TDD</li>" +
+            "<li>MaterialUI</li>" +
+            "<li>GIT / GITHUB</li></ul>"
+    },
+
+    {
+        period: "September 2018 to December 2018",
+        company: "Udemy.com",
+        position: "The Complete Web Developer Course 2.0",
+        description:
+            "<ul><li>HTML</li>" +
+            "<li>CSS</li>" +
+            "<li>Javascript</li>" +
+            "<li>jQuery</li>" +
+            "<li>CMSs and WordPress</li>" +
+            "<li>Responsive Design</li>" +
+            "<li>PHP Coding</li>" +
+            "<li>MySQL Databases</li></ul>"
+    },
+
+
+    {
         period: "February 2009 to Present",
         company: "GlobalOneBel JSC",
         position: "Department director, Financial Telecommunications",

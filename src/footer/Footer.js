@@ -16,16 +16,16 @@ export const Footer = (props) => {
                 <div className={style.footerMenu}>
 
 
-                    <a href="#"> <FontAwesomeIcon icon={faLinkedin} className={style.icon}/></a>
-                    <a href="#"> <FontAwesomeIcon icon={faGithub} className={style.icon}/></a>
-                    <a href="#"> <FontAwesomeIcon icon={faFacebook} className={style.icon}/></a>
-                    <a href="#"> <FontAwesomeIcon icon={faInstagram} className={style.icon}/></a>
+                    <a href="https://www.linkedin.com/mwlite/in/andrei-kostsen-9699b1a1"> <FontAwesomeIcon icon={faLinkedin} className={style.icon}/></a>
+                    <a href="https://github.com/andreikostsen/"> <FontAwesomeIcon icon={faGithub} className={style.icon}/></a>
+                    <a href="https://www.facebook.com/andrzej.kascien"> <FontAwesomeIcon icon={faFacebook} className={style.icon}/></a>
+                    <a href="https://www.instagram.com/andrzej_kascien"> <FontAwesomeIcon icon={faInstagram} className={style.icon}/></a>
 
 
 
                 </div>
 
-                <div className={style.copyright}>© 2022 Andrei Kostsen, All Rights Reserved.</div>
+                <div className={style.copyright}>© 2022 Andrei Kostsen</div>
 
             </div>
 

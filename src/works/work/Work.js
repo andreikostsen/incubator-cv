@@ -9,7 +9,7 @@ export const Work = (props) => {
     return (
         <div className={style.work}>
             <div className={style.imgBlock} style={props.style}>
-                <a className={style.button} href={props.link}>Open</a>
+                <a className={style.button} href={props.link}>{props.buttonTitle}</a>
             </div>
 
             <h3 className={style.work_item_title}>{props.title}</h3>
