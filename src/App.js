@@ -11,6 +11,9 @@ import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
 import {Stories} from "./story/Stories";
 import {Sidebar} from "./common/components/sidebar/Sidebar";
+import {About} from "./about/About";
+
+
 
 // helpers
 
@@ -62,7 +65,7 @@ const useScrollspy = (ids, offset = 0) => {
 
 function App() {
 
-    const ids = ["Home", "Skills", "Portfolio", "Story","Contacts"]
+    const ids = ["Home", "About me", "Skills", "Portfolio", "Story","Contacts"]
     const activeId = useScrollspy(ids, 80); // 54 is navigation height
 
   return (
@@ -73,14 +76,15 @@ function App() {
           <div id="page-wrap">
 
               <Router>
-              <Header menuItems={ids} activeId={activeId}/>
-              <Main id={ids}/>
-              <Skills id={ids[1]}/>
-              <Works id={ids[2]}/>
-              <Freelance/>
-              {/*<Contacts />*/}
-              <Stories id={ids[3]}/>
-              <Footer id={ids[4]}/>
+                  <Header menuItems={ids} activeId={activeId}/>
+                  <Main id={ids}/>
+                  <About id={ids[1]}/>
+                  <Skills id={ids[2]}/>
+                  <Works id={ids[3]}/>
+                  <Freelance/>
+                  {/*<Contacts />*/}
+                  <Stories id={ids[4]}/>
+                  <Footer id={ids[5]}/>
               </Router>
 
           </div>

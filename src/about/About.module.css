@@ -1,0 +1,94 @@
+.about {
+    position: relative;
+    top: 80px;
+
+    padding: 100px 0 105px;
+}
+
+.aboutContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+
+
+}
+
+.textContainer {
+    width: 60%;
+}
+
+.textContainer p {
+    font: 400 16px/28px "Poppins", sans-serif;
+    color: #808899;
+    padding: 20px 50px 20px 0px;
+    text-align: justify;
+}
+
+.photo {
+    position: relative;
+    width: 40%;
+
+}
+
+
+.photo::before {
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    right: -40px;
+    width: 140px;
+    height: 550px;
+    background-color: #fec110;
+
+    z-index: -1;
+}
+
+.kostenImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.photo h2 {
+    font-size: 200px;
+    font-weight: 900;
+    color: #fff;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 0px;
+    left: -100px
+}
+
+
+
+
+@media screen and (max-width: 1063px) {
+
+
+    .aboutContainer {
+         flex-direction: column;
+    }
+
+
+    .textContainer {
+        width: 100%;
+    }
+
+
+    .textContainer p {
+
+        padding: 20px 0px 50px 0px;
+
+    }
+
+
+    .photo {
+
+        width: 100%;
+
+    }
+
+    }
+
